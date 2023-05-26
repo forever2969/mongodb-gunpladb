@@ -1,0 +1,26 @@
+{
+  "name": "gunpla",
+  "version": "1.0.0",
+  "description": "dbhw",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+	"dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/forever2969/mongodb-gunpladb.git"
+  },
+  "author": "dev forever2969",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forever2969/mongodb-gunpladb/issues"
+  },
+  "homepage": "https://github.com/forever2969/mongodb-gunpladb#readme",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "graphql": "^16.6.0",
+    "mongoose": "^7.2.1",
+    "nodemon": "^2.0.22"
+  }
+}
